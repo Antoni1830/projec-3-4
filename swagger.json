@@ -51,13 +51,13 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "Game": {
                   "example": "any"
                 },
-                "lastName": {
+                "bestPlayer": {
                   "example": "any"
                 },
-                "email": {
+                "UserName": {
                   "example": "any"
                 },
                 "favoriteColor": {
