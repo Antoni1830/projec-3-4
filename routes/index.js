@@ -8,5 +8,17 @@ router.get('/',(req,res)=>{
 });
 //router.get('/',(req,res)=>{res.send('qlq el mio')});
 
+
 router.use('/users',require('./users'))
+
+router.get('/logout',function(req,res,next){
+    req.logout(function(err){
+        if (err) { return next(err); }
+        res.redirect('/')
+    });
+});
+
+
+
+
 module.exports=router;
