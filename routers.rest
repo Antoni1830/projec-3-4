@@ -18,7 +18,9 @@ Content-Type: application/json
     "bestPlayer": "Graciel Jemmotte",
     "UserName": "Gra0808",
     "favoriteColor": "Black",
-    "birthday": "06-08-2000"
+    "birthday": "06-08-2000",
+    "Year": "2015",
+    "Country": "Venezuela"
 }
 ### Put contac
 PUT http://localhost:3000/users/66ef7ae3af9c96b46ec2c7f1 HTTP/1.1
@@ -29,7 +31,9 @@ Content-Type: application/json
     "bestPlayer": "Graciel Jemmotte",
     "UserName": "Gra0808",
     "favoriteColor": "Black",
-    "birthday": "06-08-2000"
+    "birthday": "06-08-2000",
+    "Year": "2015",
+    "Country": "Venezuela"
 }
 ### delete
 DELETE http://localhost:3000/users/66f824a67ece04b23cc7148a  HTTP/1.1
