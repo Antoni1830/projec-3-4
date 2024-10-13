@@ -9,7 +9,7 @@ const{isAuthenticated}=require ("../middleware/authenticate");
 router.get('/', usersController.getAll);
 router.get('/:id',usersController.getSingle);
 router.post('/',validateCreate, usersController.createUser);
-router.put('/:id',isAuthenticated, usersController.updateUser);
+router.put('/:id',usersController.updateUser);
 router.delete('/:id', usersController.deleteUser);
 
 
